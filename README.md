@@ -12,7 +12,7 @@ Este proyecto es una API RESTful desarrollada con [NestJS](https://nestjs.com/) 
 ---
 ### Requistos
 - Node.js 18+  
-
+- MongoDB Atlas
 ## Configuración local
 
 ### 1. Clonar repositorio

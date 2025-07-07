@@ -52,5 +52,12 @@ npm run start:dev
 | PUT    | /empleados/\:id | Actualizar empleado |
 | DELETE | /empleados/\:id | Eliminar empleado   |
 
+### API
+Puedes usar Postman o Curl verificar que todo funciona bien
+```bash
+http://localhost:3001/empleados
+```
+esa es la URL para probar los metodos GET, POST, PUT, DELETE.
+
 
 

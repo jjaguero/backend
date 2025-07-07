@@ -18,7 +18,7 @@ async function bootstrap() {
 
   app.enableCors(corsOptions);
 
-  const port = configService.get('PORT') || 3000;
+  const port = configService.get('PORT') || 3001;
   await app.listen(port);
   console.log(`Server running on port ${port}`);
   console.log('Allowed origins:', corsOptions.origin);
